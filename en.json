@@ -1,7 +1,7 @@
 {
     "localeCode" : "en",
     "authors" : ["Frooxius", "Enverex", "rampa_3", "Melnus"],
-    "messages" : 
+    "messages" :
     {
         "General.OK" : "OK",
         "General.Cancel" : "Cancel",
@@ -42,9 +42,9 @@
         "Locomotion.ZeroG.Name" : "Zero-G",
         "Locomotion.ZeroG.Description" : "Weightless physical locomotion",
         "Locomotion.GrabWorld.Name" : "Grab World",
-        "Locomotion.GrabWorld.Description" : "Creates a world anchor with the reference and moves the user relative to it.",
+        "Locomotion.GrabWorld.Description" : "Creates a world anchor at the grab position and moves the user relative to it.",
         "Locomotion.Slide.Name" : "Slide",
-        "Locomotion.Slide.Description" : "Simple Sliding locomotion that snaps to surface if present, flying otherwise.",
+        "Locomotion.Slide.Description" : "Simple sliding locomotion that snaps to surface if present, flying otherwise.",
 
         "Interaction.Destroy" : "Destroy",
         "Interaction.Duplicate" : "Duplicate",
@@ -108,27 +108,27 @@
         "World.Connection.Connected" : "Connected",
         "World.Connection.SyncingInitialState" : "Syncing initial world state",
 
-        "World.Error.AccessDenied" : "Access Denied",
-        "World.Error.SecurityViolation" : "Security Violation",
+        "World.Error.AccessDenied" : "Access denied",
+        "World.Error.SecurityViolation" : "Security violation",
         "World.Error.OnlyRegisteredUsers" : "Only registered users are allowed to join",
         "World.Error.OnlyContacts" : "Only contacts of the host are allowed to join",
         "World.Error.OnlyContactsOfContacts" : "Only contacts of users in the session are allowed to join",
         "World.Error.Private" : "This session is private",
-        "World.Error.SessionEnded" : "Session Has Ended",
+        "World.Error.SessionEnded" : "Session has ended",
         "World.Error.UserLimitReached" : "Session has reached user limit",
         "World.Error.FailedAuthentication" : "Failed authentication",
         "World.Error.FailedUserID" : "Failed to authenticate UserID",
         "World.Error.FailedFetchingAuthentication" : "Failed to fetch authentication info",
         "World.Error.JoinAlreadyRequested" : "Join has already been requested",
         "World.Error.FailedConnectToRelay" : "Failed to connect to relay",
-        "World.Error.NoPort" : "No Port Specified",
-        "World.Error.IncompatibleVersion" : "Incompatible Neos Version",
-        "World.Error.Unknown" : "Unknown Error",
+        "World.Error.NoPort" : "No port specified",
+        "World.Error.IncompatibleVersion" : "Incompatible Neos version",
+        "World.Error.Unknown" : "Unknown error",
 
         "World.Config.Name" : "World Name:",
         "World.Config.Description" : "Description:",
         "World.Config.MaxUsers" : "Maximum Users:",
-        "World.Config.MobileFriendly" : "Mobile Friendly",
+        "World.Config.MobileFriendly" : "Mobile Friendly:",
         "World.Config.SaveOptionsHeader" : "World Save Options:",
         "World.Config.EditMode" : "Edit Mode:",
         "World.Config.AccessLevelHeader" : "Who can join this world?",
@@ -164,7 +164,7 @@
         "World.Actions.LeavePrompt" : "Leave World?",
         "World.Actions.CloseConfirm" : "Close",
         "World.Actions.LeaveConfirm" : "Leave",
-        "World.Actions.CannotClose" : "(cannot close this world)",
+        "World.Actions.CannotClose" : "(Cannot close this world)",
         "World.Actions.GuestWarning" : "",
         "World.Actions.HostingWarning" : "You're hosting this world. All users will be disconnected.",
 
@@ -913,7 +913,7 @@
 
         "Settings.WindowsIntegration" : "Windows Integration",
         "Settings.LinuxIntegration" : "Linux Integration",
-        
+
         "Settings.System.KeepOriginalScreenshotFormat" : "Keep original screenshot format",
         "Settings.System.KeepOriginalScreenshotFormat.Description" : "When enabled, screenshots won't be converted to JPG when saved into the Documents folder",
 
